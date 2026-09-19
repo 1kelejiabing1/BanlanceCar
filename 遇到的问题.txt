@@ -1,0 +1,62 @@
+1、在进行串口发送debug测试时串口无法发送完整数据。后面发现是多个任务发送debug导致串口数据混乱。
+2、写NRF24L01代码测试时无法正常收发。
+原因：在填写HAL_SPI_TransmitRecive函数的Size参数时没考虑到读写指令占1个字节。
+解决：在原Size上加1即可
+3、void driver_nrf24l01_send_packet(void)
+{
+    driver_nrf24l01_write_regs(NRF24L01_TX_ADDR, deiver_nrf24l01_tx_address, 5);
+    driver_nrf24l01_tx_payload(driver_nrf24l01_tx_packet, NRF24L01_TX_PACKET_WIDTH);
+    // 配置接收通道0的地址
+    driver_nrf24l01_write_regs(NRF24L01_RX_ADDR_P0, deiver_nrf24l01_rx_address, 5);
+    driver_nrf24l01_tx_mode();
+    // 等待发送完成
+    uint8_t status = 0;
+    uint8_t count = 0;
+    while (1)
+    {
+        status = driver_nrf24l01_get_status();
+        if ((status & 0x20) != 0)
+        {
+            // TX_DS为1:发送成功
+            break;
+        }
+        if ((status & 0x10) != 0)
+        {
+            // MAX_RT为1:发送失败
+            break;
+        }
+        // 超时退出
+        if (count++ > 100)
+        {
+            break;
+        }
+        // 清除标志位
+        driver_nrf24l01_write_reg(NRF24L01_STATUS, 0x30);
+        // 清除TXFIFO
+        driver_nrf24l01_flush_tx();
+        driver_nrf24l01_rx_mode();
+    }
+}
+清除标志位放在了while循环里，导致无法正常发送数据。
+4、加入蓝牙任务后系统HardFault
+原因：middleware_ble_init();driver_motor_init();这两个初始化代码放在了task_middleware_ble，而task_middleware_ble的优先级低于task_ble，在task_ble中循环获取的队列middleware_bleframe_queue在middleware_ble_init中被创建，应该是再使用middleware_bleframe_queue时其没有被创建，为NULL指针，导致系统HardFault。
+解决：统一将初始化放在了任务创建之前。以后后缀init的函数统一在任务创建之前（主要是有需要创建的队列、信号量等东西），start后缀的函数在真正需要使用时，比如我把driver_motor_start（电机启动）和driver_encoder_start（编码器启动）等需要用时在启动的模块放在任务开始时。
+5、加入task_control任务后按键任务无法工作
+排查：加入task_led任务，任务优先级最低，500毫秒翻转一次，若led不工作则代表可能某个任务耗时过长。
+原因：task_control耗时过长，用HAL_GetTick函数粗略显示其单次任务耗时11~12ms，每次任务间休息仅8ms，导致其他低优先级任务无法工作。
+解决：原本以为是MPU6500读取花费时间过多，结果使用HAL_GetTick函数粗略显示得到MPU6500读取花费时间大概在1~2ms，中间计算花费9~10ms，然后怀疑是OLED刷新太耗费时间（OLED用的软件模拟I2C），不显示OLED后led任务正常闪烁。
+6、蓝牙传回来的根据MPU6500数据解析出的角度数据极度不正常，在小程序上的曲线显示动不动就突然飙到一个极大极小的值
+原因：我把蓝牙的发送接收波特率改成了115200，导致发送过快小程序接收不过来，显示屏上显示经常出现上一组数据传到一半接收到下一组数据，哪些极大极小值可能是因为小程序把帧头当成数据了。
+解决：把蓝牙的波特率改回9600
+7、task_control任务耗时突然过大，其他任务无法运行
+原因：蓝牙改回了9600，传输数据耗时超过了task_control的延时，导致耗时过大
+解决：调试时才使用蓝牙发送角度等数据，调参或其他正常运行时不使用蓝牙发送数据。
+8、平衡车电机嗡嗡作响，感觉无法正常转动
+原因：设置电机速度的输入速度参数是int型，但我在传入时传入的是float型
+解决：改回int型
+9、平衡车无法保持平衡
+原因：电池没电了（吓死了，一开始还以为是前面把电机弄坏了）
+解决：充电
+10、手柄归位，平衡车会突然剧烈摇晃，并且会向一个方向前进，而且就算不用蓝牙或手柄控制平衡车平衡车也难以保持平衡，总感觉一卡一卡的。
+排查：因为手柄归位，平衡车会突然剧烈摇晃，并且会向一个方向前进，一开始我以为是手柄归位的LH、RV为0的信息没有发送到平衡车上，导致平衡车一直向手柄归位前的方向前进，排查后发现手柄归位的数据发送到平衡车上并且接收到了。然后发现而且就算不用蓝牙或手柄控制平衡车平衡车也难以保持平衡，总感觉一卡一卡的，排查后发现是我在task_control任务里添加了打印OLED数据的任务，而打印OLED耗时非常大，用HAL_GetTick函数粗略显示为39ms。
+解决：1、原本打算把OLED的I2C改成硬件驱动的，但是不知道为什么CubeMX不能配置I2C1，没办法依然使用软件模拟I2C，不过改进了原OLED的代码，具体就是：（1）、原来OLED代码是每调用一次 OLED_ShowXxx()，就立即通过 I2C 把数据一字节一字节写进 OLED，每字节还要 Start + 地址 + 控制字 + 数据 + Stop。改进成所有绘图只操作 MCU 内存里的 1024 字节显存 OLED_GRAM[8][128]，最后 OLED_Refresh() 时把整屏数据一次性上屏。（2）、直接写 BSRR 寄存器替代 HAL_GPIO_WritePin。（3）、去掉多余的 I2C_Delay 或减少延时。（4）把如OLED_I2C_SendByte这样高频函数改成内联函数，省掉函数调用/返回的开销。2、新增task_oled任务，把OLED刷新的任务从task_control中剥离出来。
