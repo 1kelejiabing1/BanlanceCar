@@ -131,12 +131,13 @@
 | 任务 | 入口函数 | 优先级 | 栈大小(words) | 周期 | 功能 |
 | --- | --- | --- | --- | --- | --- |
 | task_led | `task_led` | 1 | 8 | 500ms | LED 心跳 |
-| task_key | `task_key` | 2 | 128 | 10ms | 按键状态机 |
-| task_control | `task_control` | 5 | 256 | 15ms | 三环 PID 控制 |
-| task_middleware_ble | `task_middleware_ble` | 2 | 128 | 事件驱动 | BLE 字节解析成帧 |
-| task_ble | `task_ble` | 3 | 256 | 事件驱动 | BLE 指令处理 |
-| task_nrf24l01 | `task_nrf24l01` | 4 | 256 | 10ms | 无线收发 |
-| task_oled | `task_oled` | 1 | 128 | 60ms | OLED 刷新 |
+| task_key | `task_key` | 2 | 192 | 10ms | 按键状态机 |
+| task_control | `task_control` | 5 | 192 | 15ms | 三环 PID 控制 |
+| task_middleware_ble | `task_middleware_ble` | 2 | 192 | 事件驱动 | BLE 字节解析成帧 |
+| task_ble | `task_ble` | 3 | 192 | 事件驱动 | BLE 指令处理 |
+| task_nrf24l01 | `task_nrf24l01` | 4 | 192 | 10ms | 无线收发 |
+| task_oled | `task_oled` | 1 | 200 | 60ms | OLED 刷新 |
+
 
 
 ---
@@ -196,7 +197,7 @@ BalanceCar/
 
 1. 克隆仓库
    ```bash
-   git clone https://github.com/<your-name>/BalanceCar.git
+   git clone https://github.com//1kelejiabing1/BalanceCar.git
    ```
 2. 用 Keil 打开 `MDK-ARM/BalanceCar.uvprojx`
 3. 选择正确的目标芯片（STM32F103C8），确认 Flash Download 配置（128KB）
