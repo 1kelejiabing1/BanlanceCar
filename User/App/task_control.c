@@ -171,7 +171,8 @@ void task_control(void *pvParameters)
             middleware_pid_update(&s_task_control_turn_pid);
             s_task_control_diff_speed = s_task_control_turn_pid.Out;
         }
-
+        UBaseType_t stackLeft = uxTaskGetStackHighWaterMark(NULL);
+        debug_printf("%d\r\n", stackLeft);
         vTaskDelayUntil(&xLastWakeTime, PERIOD_MS);
     }
 }

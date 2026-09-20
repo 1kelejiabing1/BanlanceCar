@@ -13,7 +13,7 @@
 #include <stdint.h>
 
 /* 调试输出使用的串口句柄（当前为 USART2，与蓝牙共用） */
-#define DEBUG_UART huart2
+#define DEBUG_UART huart1
 
 /**
  * @brief   重定向 printf 的底层输出：单字节阻塞发送

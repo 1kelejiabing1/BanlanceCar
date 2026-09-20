@@ -1057,16 +1057,6 @@
               <FilePath>..\User\App\task_middleware_ble.h</FilePath>
             </File>
             <File>
-              <FileName>task_mpu6500.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\User\App\task_mpu6500.c</FilePath>
-            </File>
-            <File>
-              <FileName>task_mpu6500.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\User\App\task_mpu6500.h</FilePath>
-            </File>
-            <File>
               <FileName>task_control.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\App\task_control.c</FilePath>

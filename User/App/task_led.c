@@ -5,6 +5,7 @@
 #include "task_led.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "app_debug.h"
 #include "bsp_led.h"
 
 /**
@@ -17,6 +18,8 @@ void task_led(void *pvParameters)
     while(1)
     {
         BSP_LED_TOGGLE();
+        UBaseType_t stackLeft = uxTaskGetStackHighWaterMark(NULL);
+        debug_printf("%d\r\n", stackLeft);
         vTaskDelay(pdMS_TO_TICKS(500));
     }
 }

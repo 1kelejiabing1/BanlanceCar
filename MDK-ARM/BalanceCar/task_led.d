@@ -11,6 +11,10 @@ balancecar\task_led.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/
 balancecar\task_led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 balancecar\task_led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 balancecar\task_led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+balancecar\task_led.o: ..\User\App\app_debug.h
+balancecar\task_led.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+balancecar\task_led.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+balancecar\task_led.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 balancecar\task_led.o: ../User/Bsp/bsp_led.h
 balancecar\task_led.o: ../Core/Inc/main.h
 balancecar\task_led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h

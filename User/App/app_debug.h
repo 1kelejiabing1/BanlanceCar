@@ -13,7 +13,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdarg.h>
-#define DEBUG_ENABLED 2
+#define DEBUG_ENABLED 0
 /* 模式1：串口调试输出（debug_printf 生效，ble_printf 关闭） */
 #if (DEBUG_ENABLED == 1)
 #define __FILENAME__ (strrchr(__FILE__, '\\') ? strrchr(__FILE__, '\\') + 1 : strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 \

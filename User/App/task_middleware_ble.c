@@ -11,6 +11,7 @@
 #include "semphr.h"
 #include "middleware_ble.h"
 #include "driver_ble.h"
+#include "app_debug.h"
 
 /**
  * @brief   蓝牙字节解析任务主体
@@ -28,6 +29,8 @@ void task_middleware_ble(void *pvParameters)
         while (middleware_ble_read_byte(&byte))
         {
             middleware_ble_parse_byte(byte);
+            UBaseType_t stackLeft = uxTaskGetStackHighWaterMark(NULL);
+            debug_printf("%d\r\n", stackLeft);
         }
     }
 }

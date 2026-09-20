@@ -15,7 +15,6 @@
 #include "task.h"
 #include "app_debug.h"
 #include "task_key.h"
-#include "task_mpu6500.h"
 #include "task_control.h"
 #include "task_led.h"
 #include "task_nrf24l01.h"
@@ -29,22 +28,22 @@
 #define LED_TASK_STACK_SIZE 8
 // OLED 显示任务
 #define OLED_TASK_PRIORITY 1
-#define OLED_TASK_STACK_SIZE 128
+#define OLED_TASK_STACK_SIZE 200
 // 按键处理任务
 #define KEY_TASK_PRIORITY 2
-#define KEY_TASK_STACK_SIZE 128
+#define KEY_TASK_STACK_SIZE 192
 // 平衡控制任务（三环 PID）
 #define MPU6050_TASK_PRIORITY 5
-#define MPU6050_TASK_STACK_SIZE 256
+#define MPU6050_TASK_STACK_SIZE 192
 // 蓝牙指令处理任务
 #define BLE_TASK_PRIORITY 3
-#define BLE_TASK_STACK_SIZE 256
+#define BLE_TASK_STACK_SIZE 192
 // 蓝牙字节解析任务
 #define MIDDLEWARE_BLE_PRIORITY 2
-#define MIDDLEWARE_BLE_STACK_SIZE 128
+#define MIDDLEWARE_BLE_STACK_SIZE 192
 // NRF24L01 无线收发任务
 #define NRF24L01_TASK_PRIORITY 4
-#define NRF24L01_TASK_STACK_SIZE 256
+#define NRF24L01_TASK_STACK_SIZE 192
 
 /**
  * @brief   创建所有应用任务

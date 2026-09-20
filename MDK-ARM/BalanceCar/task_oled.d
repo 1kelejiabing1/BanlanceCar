@@ -42,3 +42,7 @@ balancecar\task_oled.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS
 balancecar\task_oled.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 balancecar\task_oled.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 balancecar\task_oled.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+balancecar\task_oled.o: ..\User\App\app_debug.h
+balancecar\task_oled.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+balancecar\task_oled.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+balancecar\task_oled.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

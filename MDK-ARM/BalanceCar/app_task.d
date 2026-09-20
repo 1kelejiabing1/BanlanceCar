@@ -46,7 +46,6 @@ balancecar\app_task.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 balancecar\app_task.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 balancecar\app_task.o: ..\User\App\task_key.h
 balancecar\app_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
-balancecar\app_task.o: ..\User\App\task_mpu6500.h
 balancecar\app_task.o: ..\User\App\task_control.h
 balancecar\app_task.o: ../User/Middleware/middleware_nrf24l01.h
 balancecar\app_task.o: ..\User\App\task_led.h

@@ -10,6 +10,7 @@
 #include "task_oled.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "app_debug.h"
 
 /**
  * @brief   OLED 任务主体：周期刷新显示
@@ -21,6 +22,9 @@ void task_oled(void *pvParameters)
     TickType_t xLastWakeTime = xTaskGetTickCount();
     while (1) {
         task_control_oled_show();      // 绘制状态信息并上屏
+        UBaseType_t stackLeft = uxTaskGetStackHighWaterMark(NULL);
+        debug_printf("%d\r\n", stackLeft);
         vTaskDelayUntil(&xLastWakeTime, 60);
+        
     }
 }

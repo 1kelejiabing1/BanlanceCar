@@ -42,7 +42,6 @@
 "balancecar\task_key.o"
 "balancecar\task_ble.o"
 "balancecar\task_middleware_ble.o"
-"balancecar\task_mpu6500.o"
 "balancecar\task_control.o"
 "balancecar\task_led.o"
 "balancecar\task_nrf24l01.o"

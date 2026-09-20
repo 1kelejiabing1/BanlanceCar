@@ -41,6 +41,9 @@ balancecar\task_nrf24l01.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/
 balancecar\task_nrf24l01.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 balancecar\task_nrf24l01.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 balancecar\task_nrf24l01.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
-balancecar\task_nrf24l01.o: ../User/Driver/driver_oled.h
 balancecar\task_nrf24l01.o: ../User/Middleware/middleware_nrf24l01.h
 balancecar\task_nrf24l01.o: ..\User\App\task_control.h
+balancecar\task_nrf24l01.o: ..\User\App\app_debug.h
+balancecar\task_nrf24l01.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+balancecar\task_nrf24l01.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+balancecar\task_nrf24l01.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

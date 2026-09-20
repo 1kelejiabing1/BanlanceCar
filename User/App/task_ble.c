@@ -122,5 +122,7 @@ void task_ble(void *pvParameters)
             }
             
         }
+        UBaseType_t stackLeft = uxTaskGetStackHighWaterMark(NULL);
+        debug_printf("%d\r\n", stackLeft);
     }
 }

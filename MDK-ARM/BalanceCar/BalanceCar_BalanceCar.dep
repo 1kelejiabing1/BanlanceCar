@@ -122,7 +122,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x69FDFFC1)
-I (../User/App/app_task.h)(0x6AAA0EF4)
+I (../User/App/app_task.h)(0x6AAE9FC3)
 F (../Core/Src/i2c.c)(0x6AA68603)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\i2c.o --omf_browse balancecar\i2c.crf --depend balancecar\i2c.d)
 I (../Core/Inc/i2c.h)(0x6AA12E6F)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
@@ -1026,8 +1026,8 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-F (..\User\App\app_task.c)(0x6AAE9193)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\app_task.o --omf_browse balancecar\app_task.crf --depend balancecar\app_task.d)
-I (..\User\App\app_task.h)(0x6AAA0EF4)
+F (..\User\App\app_task.c)(0x6AAF3607)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\app_task.o --omf_browse balancecar\app_task.crf --depend balancecar\app_task.d)
+I (..\User\App\app_task.h)(0x6AAE9FC3)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1067,25 +1067,24 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-I (..\User\App\app_debug.h)(0x6AA9FA60)
+I (..\User\App\app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-I (..\User\App\task_key.h)(0x6AAA0EF5)
+I (..\User\App\task_key.h)(0x6AAE9FD8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69FDFFC1)
-I (..\User\App\task_mpu6500.h)(0x6AAA0EF5)
-I (..\User\App\task_control.h)(0x6AAE51C4)
-I (../User/Middleware/middleware_nrf24l01.h)(0x6AADDFE2)
-I (..\User\App\task_led.h)(0x6AA94FBA)
-I (..\User\App\task_nrf24l01.h)(0x6AAD517A)
+I (..\User\App\task_control.h)(0x6AAE9FEE)
+I (../User/Middleware/middleware_nrf24l01.h)(0x6AAEA057)
+I (..\User\App\task_led.h)(0x6AAE9FCC)
+I (..\User\App\task_nrf24l01.h)(0x6AAEA003)
 I (../User/Driver/driver_nrf24l01.h)(0x6AA7A69E)
-I (..\User\App\task_ble.h)(0x6AAA0EF5)
-I (../User/Middleware/middleware_ble.h)(0x6AAA0EF5)
-I (..\User\App\task_middleware_ble.h)(0x6AA7A6D1)
-I (..\User\App\task_oled.h)(0x6AAE5492)
-F (..\User\App\app_task.h)(0x6AAA0EF4)()
-F (..\User\App\app_debug.c)(0x6AA9F690)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\app_debug.o --omf_browse balancecar\app_debug.crf --depend balancecar\app_debug.d)
-I (..\User\App\app_debug.h)(0x6AA9FA60)
+I (..\User\App\task_ble.h)(0x6AAE9FF6)
+I (../User/Middleware/middleware_ble.h)(0x6AAEA04C)
+I (..\User\App\task_middleware_ble.h)(0x6AAE9FFB)
+I (..\User\App\task_oled.h)(0x6AAE9FD1)
+F (..\User\App\app_task.h)(0x6AAE9FC3)()
+F (..\User\App\app_debug.c)(0x6AAEAA58)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\app_debug.o --omf_browse balancecar\app_debug.crf --depend balancecar\app_debug.d)
+I (..\User\App\app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
@@ -1120,9 +1119,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
-F (..\User\App\app_debug.h)(0x6AA9FA60)()
-F (..\User\App\task_key.c)(0x6AAB9FB6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_key.o --omf_browse balancecar\task_key.crf --depend balancecar\task_key.d)
-I (..\User\App\task_key.h)(0x6AAA0EF5)
+F (..\User\App\app_debug.h)(0x6AAEA927)()
+F (..\User\App\task_key.c)(0x6AAEAC32)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_key.o --omf_browse balancecar\task_key.crf --depend balancecar\task_key.d)
+I (..\User\App\task_key.h)(0x6AAE9FD8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x69FDFFC1)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -1135,11 +1134,11 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-I (..\User\App\app_debug.h)(0x6AA9FA60)
+I (..\User\App\app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-I (../User/Bsp/bsp_key.h)(0x6AAA0EF5)
+I (../User/Bsp/bsp_key.h)(0x6AAEA00F)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1170,14 +1169,14 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
 I (../Core/Inc/i2c.h)(0x6AA12E6F)
-I (../User/Driver/driver_motor.h)(0x6AA7FDEA)
-I (../User/Bsp/bsp_led.h)(0x6AA7FBDB)
-I (..\User\App\task_control.h)(0x6AAE51C4)
-I (../User/Middleware/middleware_nrf24l01.h)(0x6AADDFE2)
-F (..\User\App\task_key.h)(0x6AAA0EF5)()
-F (..\User\App\task_ble.c)(0x6AABD6F1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_ble.o --omf_browse balancecar\task_ble.crf --depend balancecar\task_ble.d)
-I (..\User\App\task_ble.h)(0x6AAA0EF5)
-I (../User/Middleware/middleware_ble.h)(0x6AAA0EF5)
+I (../User/Driver/driver_motor.h)(0x6AAEA03B)
+I (../User/Bsp/bsp_led.h)(0x6AAEA012)
+I (..\User\App\task_control.h)(0x6AAE9FEE)
+I (../User/Middleware/middleware_nrf24l01.h)(0x6AAEA057)
+F (..\User\App\task_key.h)(0x6AAE9FD8)()
+F (..\User\App\task_ble.c)(0x6AAEAC13)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_ble.o --omf_browse balancecar\task_ble.crf --depend balancecar\task_ble.d)
+I (..\User\App\task_ble.h)(0x6AAE9FF6)
+I (../User/Middleware/middleware_ble.h)(0x6AAEA04C)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
@@ -1219,18 +1218,17 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x69FDFFC1)
-I (../User/Driver/driver_ble.h)(0x6AA7A44A)
-I (..\User\App\app_debug.h)(0x6AA9FA60)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x69FDFFC1)
+I (../User/Driver/driver_ble.h)(0x6AAEA025)
+I (..\User\App\app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-I (..\User\App\task_control.h)(0x6AAE51C4)
-I (../User/Middleware/middleware_nrf24l01.h)(0x6AADDFE2)
-I (D:\software\Keil_v5\ARM\ARMCC\include\errno.h)(0x60252376)
-F (..\User\App\task_ble.h)(0x6AAA0EF5)()
-F (..\User\App\task_middleware_ble.c)(0x6AA7BA81)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_middleware_ble.o --omf_browse balancecar\task_middleware_ble.crf --depend balancecar\task_middleware_ble.d)
-I (..\User\App\task_middleware_ble.h)(0x6AA7A6D1)
+I (..\User\App\task_control.h)(0x6AAE9FEE)
+I (../User/Middleware/middleware_nrf24l01.h)(0x6AAEA057)
+F (..\User\App\task_ble.h)(0x6AAE9FF6)()
+F (..\User\App\task_middleware_ble.c)(0x6AAEAC1B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_middleware_ble.o --omf_browse balancecar\task_middleware_ble.crf --depend balancecar\task_middleware_ble.d)
+I (..\User\App\task_middleware_ble.h)(0x6AAE9FFB)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1272,61 +1270,15 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-I (../User/Middleware/middleware_ble.h)(0x6AAA0EF5)
-I (../User/Driver/driver_ble.h)(0x6AA7A44A)
-F (..\User\App\task_middleware_ble.h)(0x6AA7A6D1)()
-F (..\User\App\task_mpu6500.c)(0x6AAA52B5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_mpu6500.o --omf_browse balancecar\task_mpu6500.crf --depend balancecar\task_mpu6500.d)
-I (..\User\App\task_mpu6500.h)(0x6AAA0EF5)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x69FDFFC1)
-I (D:\software\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
-I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x6AA7AA73)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x69FDFFC1)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x69FDFFC1)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x69FDFFC1)
-I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x69FDFFC1)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
-I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-I (../User/Driver/driver_mpu6500.h)(0x6AAA53EA)
-I (../Core/Inc/main.h)(0x6AAA8ABB)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69FDFFB6)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69FDFFB6)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69FDFFB6)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x69FDFF1B)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69FDFF1B)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69FDFF1B)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69FDFF1B)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
-I (D:\software\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
-I (..\User\App\app_debug.h)(0x6AA9FA60)
+I (../User/Middleware/middleware_ble.h)(0x6AAEA04C)
+I (../User/Driver/driver_ble.h)(0x6AAEA025)
+I (..\User\App\app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-I (../Core/Inc/i2c.h)(0x6AA12E6F)
-I (../User/Driver/driver_oled.h)(0x6AAE7DF2)
-F (..\User\App\task_mpu6500.h)(0x6AAA0EF5)()
-F (..\User\App\task_control.c)(0x6AAE8091)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_control.o --omf_browse balancecar\task_control.crf --depend balancecar\task_control.d)
-I (..\User\App\task_control.h)(0x6AAE51C4)
+F (..\User\App\task_middleware_ble.h)(0x6AAE9FFB)()
+F (..\User\App\task_control.c)(0x6AAEAC28)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_control.o --omf_browse balancecar\task_control.crf --depend balancecar\task_control.d)
+I (..\User\App\task_control.h)(0x6AAE9FEE)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1357,7 +1309,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
-I (../User/Middleware/middleware_nrf24l01.h)(0x6AADDFE2)
+I (../User/Middleware/middleware_nrf24l01.h)(0x6AAEA057)
 I (D:\software\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x69FDFFC1)
@@ -1371,17 +1323,17 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
 I (../User/Driver/driver_mpu6500.h)(0x6AAA53EA)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
-I (../User/Middleware/middleware_pid.h)(0x6AA94076)
-I (../User/Driver/driver_motor.h)(0x6AA7FDEA)
-I (../User/Driver/driver_oled.h)(0x6AAE7DF2)
-I (..\User\App\app_debug.h)(0x6AA9FA60)
+I (../User/Middleware/middleware_pid.h)(0x6AAEA05D)
+I (../User/Driver/driver_motor.h)(0x6AAEA03B)
+I (../User/Driver/driver_oled.h)(0x6AAEA3AF)
+I (..\User\App\app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-I (../User/Driver/driver_encoder.h)(0x6AABAA48)
-F (..\User\App\task_control.h)(0x6AAE51C4)()
-F (..\User\App\task_led.c)(0x6AA94FBA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_led.o --omf_browse balancecar\task_led.crf --depend balancecar\task_led.d)
-I (..\User\App\task_led.h)(0x6AA94FBA)
+I (../User/Driver/driver_encoder.h)(0x6AAEA02D)
+F (..\User\App\task_control.h)(0x6AAE9FEE)()
+F (..\User\App\task_led.c)(0x6AAEAC3A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_led.o --omf_browse balancecar\task_led.crf --depend balancecar\task_led.d)
+I (..\User\App\task_led.h)(0x6AAE9FCC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x69FDFFC1)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -1393,7 +1345,11 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-I (../User/Bsp/bsp_led.h)(0x6AA7FBDB)
+I (..\User\App\app_debug.h)(0x6AAEA927)
+I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../User/Bsp/bsp_led.h)(0x6AAEA012)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1422,9 +1378,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
-F (..\User\App\task_led.h)(0x6AA94FBA)()
-F (..\User\App\task_nrf24l01.c)(0x6AADE0ED)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_nrf24l01.o --omf_browse balancecar\task_nrf24l01.crf --depend balancecar\task_nrf24l01.d)
-I (..\User\App\task_nrf24l01.h)(0x6AAD517A)
+F (..\User\App\task_led.h)(0x6AAE9FCC)()
+F (..\User\App\task_nrf24l01.c)(0x6AAEAC06)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_nrf24l01.o --omf_browse balancecar\task_nrf24l01.crf --depend balancecar\task_nrf24l01.d)
+I (..\User\App\task_nrf24l01.h)(0x6AAEA003)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1465,12 +1421,15 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-I (../User/Driver/driver_oled.h)(0x6AAE7DF2)
-I (../User/Middleware/middleware_nrf24l01.h)(0x6AADDFE2)
-I (..\User\App\task_control.h)(0x6AAE51C4)
-F (..\User\App\task_nrf24l01.h)(0x6AAD517A)()
-F (..\User\App\task_oled.c)(0x6AAE9217)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_oled.o --omf_browse balancecar\task_oled.crf --depend balancecar\task_oled.d)
-I (..\User\App\task_oled.h)(0x6AAE5492)
+I (../User/Middleware/middleware_nrf24l01.h)(0x6AAEA057)
+I (..\User\App\task_control.h)(0x6AAE9FEE)
+I (..\User\App\app_debug.h)(0x6AAEA927)
+I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+F (..\User\App\task_nrf24l01.h)(0x6AAEA003)()
+F (..\User\App\task_oled.c)(0x6AAEABF6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\task_oled.o --omf_browse balancecar\task_oled.crf --depend balancecar\task_oled.d)
+I (..\User\App\task_oled.h)(0x6AAE9FD1)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1501,8 +1460,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
-I (..\User\App\task_control.h)(0x6AAE51C4)
-I (../User/Middleware/middleware_nrf24l01.h)(0x6AADDFE2)
+I (..\User\App\task_control.h)(0x6AAE9FEE)
+I (../User/Middleware/middleware_nrf24l01.h)(0x6AAEA057)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x69FDFFC1)
 I (../Core/Inc/FreeRTOSConfig.h)(0x6AA7AA73)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x69FDFFC1)
@@ -1512,10 +1471,14 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-F (..\User\App\task_oled.h)(0x6AAE5492)()
-F (..\User\Bsp\bsp_led.h)(0x6AA7FBDB)()
-F (..\User\Bsp\bsp_key.c)(0x6AAA0EF5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\bsp_key.o --omf_browse balancecar\bsp_key.crf --depend balancecar\bsp_key.d)
-I (..\User\Bsp\bsp_key.h)(0x6AAA0EF5)
+I (..\User\App\app_debug.h)(0x6AAEA927)
+I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+F (..\User\App\task_oled.h)(0x6AAE9FD1)()
+F (..\User\Bsp\bsp_led.h)(0x6AAEA012)()
+F (..\User\Bsp\bsp_key.c)(0x6AAEA00E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\bsp_key.o --omf_browse balancecar\bsp_key.crf --depend balancecar\bsp_key.d)
+I (..\User\Bsp\bsp_key.h)(0x6AAEA00F)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1547,7 +1510,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
-I (../User/App/app_debug.h)(0x6AA9FA60)
+I (../User/App/app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
@@ -1560,9 +1523,9 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-F (..\User\Bsp\bsp_key.h)(0x6AAA0EF5)()
+F (..\User\Bsp\bsp_key.h)(0x6AAEA00F)()
 F (..\User\Driver\driver_oled.c)(0x6AAE7DA4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_oled.o --omf_browse balancecar\driver_oled.crf --depend balancecar\driver_oled.d)
-I (..\User\Driver\driver_oled.h)(0x6AAE7DF2)
+I (..\User\Driver\driver_oled.h)(0x6AAEA3AF)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
@@ -1595,10 +1558,10 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (..\User\Driver\driver_oled_font.h)(0x6AAE7AA1)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
-F (..\User\Driver\driver_oled.h)(0x6AAE7DF2)()
+F (..\User\Driver\driver_oled.h)(0x6AAEA3AF)()
 F (..\User\Driver\driver_oled_font.h)(0x6AAE7AA1)()
-F (..\User\Driver\driver_ble.c)(0x6AA7BCCD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_ble.o --omf_browse balancecar\driver_ble.crf --depend balancecar\driver_ble.d)
-I (..\User\Driver\driver_ble.h)(0x6AA7A44A)
+F (..\User\Driver\driver_ble.c)(0x6AAEA3B0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_ble.o --omf_browse balancecar\driver_ble.crf --depend balancecar\driver_ble.d)
+I (..\User\Driver\driver_ble.h)(0x6AAEA025)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1642,11 +1605,11 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Core/Inc/usart.h)(0x6AA68604)
-I (../User/Middleware/middleware_ble.h)(0x6AAA0EF5)
-I (../User/App/app_debug.h)(0x6AA9FA60)
+I (../User/Middleware/middleware_ble.h)(0x6AAEA04C)
+I (../User/App/app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-F (..\User\Driver\driver_ble.h)(0x6AA7A44A)()
+F (..\User\Driver\driver_ble.h)(0x6AAEA025)()
 F (..\User\Driver\driver_nrf24l01.c)(0x6AACF1BC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_nrf24l01.o --omf_browse balancecar\driver_nrf24l01.crf --depend balancecar\driver_nrf24l01.d)
 I (..\User\Driver\driver_nrf24l01.h)(0x6AA7A69E)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
@@ -1681,11 +1644,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (..\User\Driver\driver_nrf24l01_define.h)(0x6AA40BB6)
 I (../Core/Inc/spi.h)(0x6AA402B0)
-I (..\User\Driver\driver_oled.h)(0x6AAE7DF2)
+I (..\User\Driver\driver_oled.h)(0x6AAEA3AF)
 F (..\User\Driver\driver_nrf24l01.h)(0x6AA7A69E)()
 F (..\User\Driver\driver_nrf24l01_define.h)(0x6AA40BB6)()
-F (..\User\Driver\driver_motor.c)(0x6AA8B5D8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_motor.o --omf_browse balancecar\driver_motor.crf --depend balancecar\driver_motor.d)
-I (..\User\Driver\driver_motor.h)(0x6AA7FDEA)
+F (..\User\Driver\driver_motor.c)(0x6AAEA039)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_motor.o --omf_browse balancecar\driver_motor.crf --depend balancecar\driver_motor.d)
+I (..\User\Driver\driver_motor.h)(0x6AAEA03B)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1718,8 +1681,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Core/Inc/tim.h)(0x6AAA8AB8)
-F (..\User\Driver\driver_motor.h)(0x6AA7FDEA)()
-F (..\User\Driver\driver_mpu6500.c)(0x6AAA53D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_mpu6500.o --omf_browse balancecar\driver_mpu6500.crf --depend balancecar\driver_mpu6500.d)
+F (..\User\Driver\driver_motor.h)(0x6AAEA03B)()
+F (..\User\Driver\driver_mpu6500.c)(0x6AAEA38D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_mpu6500.o --omf_browse balancecar\driver_mpu6500.crf --depend balancecar\driver_mpu6500.d)
 I (..\User\Driver\driver_mpu6500.h)(0x6AAA53EA)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
@@ -1752,14 +1715,14 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
-I (../User/App/app_debug.h)(0x6AA9FA60)
+I (../User/App/app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
 I (../Core/Inc/i2c.h)(0x6AA12E6F)
 F (..\User\Driver\driver_mpu6500.h)(0x6AAA53EA)()
-F (..\User\Driver\driver_encoder.c)(0x6AABA892)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_encoder.o --omf_browse balancecar\driver_encoder.crf --depend balancecar\driver_encoder.d)
-I (..\User\Driver\driver_encoder.h)(0x6AABAA48)
+F (..\User\Driver\driver_encoder.c)(0x6AAEA02B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_encoder.o --omf_browse balancecar\driver_encoder.crf --depend balancecar\driver_encoder.d)
+I (..\User\Driver\driver_encoder.h)(0x6AAEA02D)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1791,12 +1754,12 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (../Core/Inc/tim.h)(0x6AAA8AB8)
-F (..\User\Driver\driver_encoder.h)(0x6AABAA48)()
+F (..\User\Driver\driver_encoder.h)(0x6AAEA02D)()
 F (..\User\Driver\driver_oled_font.c)(0x6AAE7E87)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\driver_oled_font.o --omf_browse balancecar\driver_oled_font.crf --depend balancecar\driver_oled_font.d)
 I (..\User\Driver\driver_oled_font.h)(0x6AAE7AA1)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
-F (..\User\Middleware\middleware_ble.c)(0x6AA8F139)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\middleware_ble.o --omf_browse balancecar\middleware_ble.crf --depend balancecar\middleware_ble.d)
-I (..\User\Middleware\middleware_ble.h)(0x6AAA0EF5)
+F (..\User\Middleware\middleware_ble.c)(0x6AAEA049)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\middleware_ble.o --omf_browse balancecar\middleware_ble.crf --depend balancecar\middleware_ble.d)
+I (..\User\Middleware\middleware_ble.h)(0x6AAEA04C)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
@@ -1837,13 +1800,13 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69FDFFC1
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69FDFFC1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69FDFFC1)
-I (../User/App/app_debug.h)(0x6AA9FA60)
+I (../User/App/app_debug.h)(0x6AAEA927)
 I (D:\software\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
-F (..\User\Middleware\middleware_ble.h)(0x6AAA0EF5)()
-F (..\User\Middleware\middleware_pid.c)(0x6AA94083)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\middleware_pid.o --omf_browse balancecar\middleware_pid.crf --depend balancecar\middleware_pid.d)
-I (..\User\Middleware\middleware_pid.h)(0x6AA94076)
+F (..\User\Middleware\middleware_ble.h)(0x6AAEA04C)()
+F (..\User\Middleware\middleware_pid.c)(0x6AAEA38A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\middleware_pid.o --omf_browse balancecar\middleware_pid.crf --depend balancecar\middleware_pid.d)
+I (..\User\Middleware\middleware_pid.h)(0x6AAEA05D)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1874,9 +1837,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
-F (..\User\Middleware\middleware_pid.h)(0x6AA94076)()
-F (..\User\Middleware\middleware_nrf24l01.c)(0x6AADDB2D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\middleware_nrf24l01.o --omf_browse balancecar\middleware_nrf24l01.crf --depend balancecar\middleware_nrf24l01.d)
-I (..\User\Middleware\middleware_nrf24l01.h)(0x6AADDFE2)
+F (..\User\Middleware\middleware_pid.h)(0x6AAEA05D)()
+F (..\User\Middleware\middleware_nrf24l01.c)(0x6AAEA054)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/App -I ../User/Bsp -I ../User/Driver -I ../User/Middleware-I.\RTE\_BalanceCar-IC:\Users\sjb43\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\sjb43\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o balancecar\middleware_nrf24l01.o --omf_browse balancecar\middleware_nrf24l01.crf --depend balancecar\middleware_nrf24l01.d)
+I (..\User\Middleware\middleware_nrf24l01.h)(0x6AAEA057)
 I (../Core/Inc/main.h)(0x6AAA8ABB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69FDFFB6)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6AAA8ABB)
@@ -1908,6 +1871,6 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69FDFFB5)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69FDFFB6)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69FDFFB5)
 I (../User/Driver/driver_nrf24l01.h)(0x6AA7A69E)
-I (../User/App/task_nrf24l01.h)(0x6AAD517A)
-I (../User/App/task_control.h)(0x6AAE51C4)
-F (..\User\Middleware\middleware_nrf24l01.h)(0x6AADDFE2)()
+I (../User/App/task_nrf24l01.h)(0x6AAEA003)
+I (../User/App/task_control.h)(0x6AAE9FEE)
+F (..\User\Middleware\middleware_nrf24l01.h)(0x6AAEA057)()

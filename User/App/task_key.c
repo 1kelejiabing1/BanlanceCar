@@ -133,6 +133,8 @@ void task_key(void *pvParameters)
             cnt = 0;
             bsp_key_scan(); // 扫描所有按键
         }
+        UBaseType_t stackLeft = uxTaskGetStackHighWaterMark(NULL);
+        debug_printf("%d\r\n", stackLeft);
         vTaskDelay(pdMS_TO_TICKS(10)); // 10ms检查一次
     }
 }

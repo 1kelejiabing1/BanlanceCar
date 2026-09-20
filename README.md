@@ -138,8 +138,6 @@
 | task_nrf24l01 | `task_nrf24l01` | 4 | 256 | 10ms | 无线收发 |
 | task_oled | `task_oled` | 1 | 128 | 60ms | OLED 刷新 |
 
-> 注：FreeRTOS 栈大小的单位是 **word**（4 字节），`128` 即 512 字节。
-> `task_mpu6500.c` 为早期调试任务，MPU6500 数据读取已整合进 `task_control`，该任务当前未创建。
 
 ---
 

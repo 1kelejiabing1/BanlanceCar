@@ -11,6 +11,7 @@
 #include "driver_nrf24l01.h"
 #include "middleware_nrf24l01.h"
 #include "task_control.h"
+#include "app_debug.h"
 
 /* 当前工作模式：0=仅发送、1=发送 + 回传（由遥控端下发的数据包第 0 字节决定） */
 task_nrf24l01_mode_t task_nrf24l01_mode;
@@ -43,6 +44,8 @@ void task_nrf24l01(void *pvParameters)
             task_control_nrf24l01_get_data(&task_nrf24l01_car_data);
             middleware_nrf24l01_send_packet(&task_nrf24l01_car_data);
         }
+        UBaseType_t stackLeft = uxTaskGetStackHighWaterMark(NULL);
+        debug_printf("%d\r\n", stackLeft);
         vTaskDelayUntil(&xLastWakeTime, 10);
     }
 }

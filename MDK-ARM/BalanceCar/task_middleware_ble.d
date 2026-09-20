@@ -44,3 +44,7 @@ balancecar\task_middleware_ble.o: ../Middlewares/Third_Party/FreeRTOS/Source/inc
 balancecar\task_middleware_ble.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 balancecar\task_middleware_ble.o: ../User/Middleware/middleware_ble.h
 balancecar\task_middleware_ble.o: ../User/Driver/driver_ble.h
+balancecar\task_middleware_ble.o: ..\User\App\app_debug.h
+balancecar\task_middleware_ble.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+balancecar\task_middleware_ble.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+balancecar\task_middleware_ble.o: D:\software\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
